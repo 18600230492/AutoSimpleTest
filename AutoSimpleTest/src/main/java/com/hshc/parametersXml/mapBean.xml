@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+    <!--locator of page map info -->
+
+    <bean beanName="params">
+        <!--Locator lists -->
+        <locator name="userName" value="admin"></locator>
+        <locator name="userPwd" value="1"></locator>
+    </bean>
+
+    <bean beanName="GetCustomInfo">
+        <!--Locator lists -->
+        <locator name="menuId" value="307"></locator>
+        <locator name="rows" value="10"></locator>
+        <locator name="page" value="1"></locator>
+    </bean>
+
+    <bean beanName="AddParams">
+        <!--Locator lists -->
+        <locator name="age" value="58"/>
+        <locator name="cupSize" value="Cb"/>
+        <locator name="money" value="97"/>
+    </bean>
+
+    <bean beanName="PutOneParams">
+        <!--Locator lists -->
+        <locator name="age" value="55"/>
+        <locator name="cupSize" value="CC"/>
+        <locator name="money" value="192"/>
+    </bean>
+
+    <bean beanName="LoginParams">
+        <!--Locator lists -->
+        <locator name="email" value="979916060@qq.com"/>
+        <locator name="password" value="a5201314"/>
+    </bean>
+
+</map>
